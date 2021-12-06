@@ -29,7 +29,7 @@ a:hover {
     border-color: chocolate;
 
 }
-em {
+em,  h2{
     font-size: 40px;
     position: absolute;
     top:20%;
@@ -62,6 +62,12 @@ em {
 .strong {
     color: blue;
 }
-h2 { 
-    
+.intro { 
+    position:absolute;
+    top: 38%;
+}
+ol{
+    font-weight: 700;
+    position: absolute;
+    top: 45%;
 }
