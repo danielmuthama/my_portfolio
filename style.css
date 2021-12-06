@@ -65,14 +65,19 @@ em,  h2{
 .intro { 
     position:absolute;
     top: 38%;
+    font-size: 20px;
 }
 ol{
     font-weight: 700;
     position: absolute;
     top: 45%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
+
 .websites {
     position: absolute;
     top: 65%;
     font-size: 20px;
+    margin-left:3%;
 }
