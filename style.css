@@ -66,7 +66,6 @@ em,  h2{
     position:absolute;
     top: 38%;
     font-size: 20px;
-    padding: 10px 0 10px;
 }
 ol{
     font-weight: 700;
@@ -84,7 +83,16 @@ ol > li {
     font-size: 20px;
     margin-left:3%;
 }
-ul {
+.intro > p{
+    padding: 5px 0 5px;
+}
+h4 {
     position: absolute;
-    top: 60%;
+    top:53%;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.skills {
+    height: 400px;
+    width: 100%;
 }
