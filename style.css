@@ -113,3 +113,6 @@ h4 {
     position: absolute;
     top: 60%;
 }
+.bgcolor {
+    background: linear-gradient(105deg, white 50%, #F6B400 0%);
+}
