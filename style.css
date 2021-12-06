@@ -7,10 +7,10 @@
     border-radius: 30%;
 }
 .navbar{
-    width: 100%;
+    width: 97%;
     padding: 20px;
     height: 60px;
-    background-color: aquamarine;
+    background-color:darkslategrey;
     padding-top: 30px;
 }
 .navbar a {
@@ -23,16 +23,32 @@ text-decoration: none;
 em {
     font-size: 40px;
     position: absolute;
-    left: 35%;
-    top:20%;
+    top:30%;
     padding-top: 2%;
     font-family: fantasy;
+    color: blue;
 }
 .speciality {
     font-size: 20px;
     position: absolute;
-    left: 30%;
-    top:30%;
-    padding-top: 2%;
+    top:35%;
+    padding-top: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profimage {
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    max-width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    border-radius: 20%;
+}
+.footer {
+    position: absolute;
+    top: 80%;
+}
+.strong {
+    color: blue;
 }
