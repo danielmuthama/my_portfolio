@@ -74,10 +74,12 @@ ol{
     padding-top: 2%;
     padding-bottom: 2%;
 }
-
+ol > li {
+    line-height: 30px;
+}
 .websites {
     position: absolute;
-    top: 65%;
+    top: 80%;
     font-size: 20px;
     margin-left:3%;
 }
