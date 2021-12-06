@@ -83,3 +83,7 @@ ol > li {
     font-size: 20px;
     margin-left:3%;
 }
+ul {
+    position: absolute;
+    top: 70%;
+}
