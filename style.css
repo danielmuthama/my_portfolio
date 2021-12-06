@@ -4,5 +4,35 @@
     max-width: 100px;
     max-height: 100px;
     float: left;
+    border-radius: 30%;
 }
-.
+.navbar{
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+    background-color: aquamarine;
+    padding-top: 30px;
+}
+.navbar a {
+padding-right: 70px;
+float: right;
+font-size: 25px;
+text-decoration: none;
+
+}
+em {
+    font-size: 40px;
+    position: absolute;
+    left: 35%;
+    top:20%;
+    padding-top: 2%;
+    font-family: fantasy;
+}
+.speciality {
+    font-size: 20px;
+    position: absolute;
+    left: 30%;
+    top:30%;
+    padding-top: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
