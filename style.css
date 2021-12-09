@@ -71,6 +71,9 @@ a:hover {
         text-decoration: none;
         color: white;
     }
+    .intro {
+        font-size: 18px;
+    }
 
 }
 
