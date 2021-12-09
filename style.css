@@ -37,7 +37,7 @@ a:hover {
     .footer {
         font-size: 10px;
     }
-    .profimage {
+    .profile > .profimage {
         width: auto;
         height: auto;
         max-height: 200px;
@@ -93,7 +93,6 @@ ol{
     font-weight: 700;
     position: absolute;
     top: 45%;
-    padding: 20px 0px 20px 50px;
 
 }
 ol > li {
@@ -106,6 +105,7 @@ ol > li {
     margin-left:3%;
 }
 .intro > p{
+    margin-top: 20px;
     padding: 10px 0px 10px 0px;
 }
 
@@ -121,23 +121,31 @@ h4 {
 .skills > h5 {
     font-size: 20px;
     text-decoration: underline;
-    position: relative;
-    padding: 60px 0 10px 0px;
+    padding: 120px 0 10px 0px;
 }
 .skills > ul {
     font-size: 18px;
+    padding: 0px 0px 10px 40px;
+
 }
 .about_me {
     height: 20%;
+} 
+.olist >  ol  {
+    padding: 40px 0px 10px 50px;
 }
 .education  {
     height: 450px;
-    padding: 10px 0px 10px 0px;
+}
+.education > h4 {
+    padding: 40px 0px 10px 0px;
+
 }
 .education > ul {
     position: absolute;
     top: 60%;
     padding-bottom: 40px;
+    padding: 40px 0px 10px 40px;
 }
 .bgcolor {
     background: linear-gradient(100deg, white 50%, #F6B400 0%);
