@@ -43,6 +43,7 @@ a:hover {
         height: auto;
         max-height: 200px;
         max-width: 300px;
+        text-align: center;
     }
     .profile > .profimage2 {
         width: auto;
@@ -62,6 +63,14 @@ a:hover {
         max-height: 100px;
         max-width: 200px;
     }
+    .navbar a {
+        padding-right: 70px;
+        padding-left: 50px;
+        float: right;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    }
 
 }
 
@@ -75,7 +84,7 @@ em,  h2{
 .speciality {
     font-size: 20px;
     position: absolute;
-    top:20%;
+    top:25%;
     padding-top: 5%;
     padding-left: 13%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -88,11 +97,11 @@ em,  h2{
 .profile > .profimage {
     width: auto;
     height: auto;
-    max-height: 700px;
-    max-width: 750px;
+    max-height: 600px;
+    max-width: 650px;
     border-radius: 20%;
     box-shadow: 0px 20px 18px blue;
-    margin: 0px 40px 0px 40px;
+    margin: 0px 30px 0px 30px;
 }
 .profile > .profimage2 {
     width: auto;
@@ -111,7 +120,7 @@ em,  h2{
     width: auto;
     height: auto;
     max-height: 500px;
-    max-width: 750px;
+    max-width: 650px;
     border-radius: 20%;
     box-shadow: 0px 10px 18px grey;
     margin-left: 110px;
@@ -125,7 +134,7 @@ em,  h2{
     width: auto;
     height: auto;
     max-height: 500px;
-    max-width: 750px;
+    max-width: 650px;
     border-radius: 20%;
     box-shadow: 0px 10px 18px grey;
     margin-left: 190px;
@@ -163,18 +172,12 @@ ol > li {
     height: 200px;
     margin: 40px 0px 40px 0px;
 }
+
 .about_me > p  {
     padding: 10px 0px 10px 0px;
-    font-size: 20px;
 }
 
-.education > h4 {
-    font-size: 20px;
-    text-decoration: underline;
-}
-.education > ul {
-    padding: 10px 0px 10px 0px;
-}
+
 .skills {
     height: 500px;
     margin: 40px 0px 10px 0px;
@@ -205,9 +208,11 @@ ol > li {
     height: 200px;
     margin: 30px 0px 0px 0px;
 }
-.education > h4 {
+.education > h5 {
     padding: 20px 0px 10px 0px;
     margin: 0px 0px 0px 0px;
+    font-size: 20px;
+    text-decoration: underline;
 
 }
 .education > ul {
