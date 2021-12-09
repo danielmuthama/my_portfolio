@@ -86,6 +86,8 @@ em,  h2{
     margin-left: 40px;
     position: absolute;
     top: 28%;
+    margin-top: 4%;
+
 }
 .profile > .profimage3 {
     width: auto;
@@ -96,7 +98,10 @@ em,  h2{
     box-shadow: 0px 10px 18px grey;
     margin-left: 120px;
     position: absolute;
-    top: 28%;
+    top: 28%;    
+    margin-top: 4%;
+
+    
 }
 .profile > .profimage4 {
     width: auto;
@@ -108,12 +113,13 @@ em,  h2{
     margin-left: 200px;
     position: absolute;
     top: 28%;
+    margin-top: 4%;
+
 }
 
 .footer {
     height: 130px;
     margin-left: 60%;
-    margin-top: 30px;
 }
     
 strong {
