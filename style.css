@@ -27,7 +27,7 @@ a:hover {
     border-color: chocolate;
 
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .name > p > em {
         font-size: 15px;
     }
@@ -48,8 +48,6 @@ a:hover {
 
 em,  h2{
     font-size: 40px;
-    position: absolute;
-    top:20%;
     padding-top: 2%;
     font-family: fantasy;
     color: blue;
@@ -87,7 +85,7 @@ strong {
 
 ol{
     font-weight: 700;
-
+    padding: 10px 0px 10px 80px;
 }
 ol > li {
     line-height: 30px;
@@ -98,8 +96,9 @@ ol > li {
     font-size: 20px;
     margin-left:3%;
 }
-.intro > p{
-    margin-top: 20px;
+.about_me{
+    margin-top: 40px;
+    font-size: 20px;
     padding: 10px 0px 10px 0px;
 }
 
@@ -122,17 +121,18 @@ h4 {
     padding: 0px 0px 10px 40px;
 
 }
-.about_me {
-    height: 20%;
-} 
-.olist >  ol  {
-    padding: 40px 0px 10px 50px;
+
+.olist > p  {
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+
+
 }
 .education  {
-    height: 500px;
+    height: 200px;
 }
 .education > h4 {
-    padding: 40px 0px 10px 0px;
+    padding: 20px 0px 10px 0px;
 
 }
 .education > ul {
