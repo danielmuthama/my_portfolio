@@ -92,7 +92,7 @@ em,  h2{
     max-width: 650px;
     border-radius: 20%;
     box-shadow: 0px 20px 18px blue;
-    margin-left: 50px;
+    margin: 0px 50px 0px 50px;
 }
 .profile > .profimage2 {
     width: auto;
@@ -103,7 +103,7 @@ em,  h2{
     box-shadow: 0px 10px 18px grey;
     margin-left: 40px;
     position: absolute;
-    top: 28%;
+    top: 30%;
     margin-top: 4%;
 
 }
@@ -116,7 +116,7 @@ em,  h2{
     box-shadow: 0px 10px 18px grey;
     margin-left: 120px;
     position: absolute;
-    top: 28%;    
+    top: 30%;    
     margin-top: 4%;
 
     
@@ -130,7 +130,7 @@ em,  h2{
     box-shadow: 0px 10px 18px grey;
     margin-left: 200px;
     position: absolute;
-    top: 28%;
+    top: 30%;
     margin-top: 4%;
 
 }
