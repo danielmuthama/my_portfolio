@@ -1,0 +1,152 @@
+.logo {
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+    float: left;
+    border-radius: 30%;
+    position: absolute;
+    left:1%;
+}
+.navbar{
+    width: 97%;
+    padding: 23px;
+    height: 60px;
+    background-color:darkslategrey;
+}
+.navbar a {
+    padding-right: 70px;
+    padding-left: 50px;
+    float: right;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    background-color: brown;
+    border-color: chocolate;
+
+}
+@media screen and (max-width: 800px) {
+    .name > p > em {
+        font-size: 15px;
+    }
+    .name > p {
+        font-size: 12px;
+    }
+    .footer {
+        font-size: 10px;
+    }
+    .profile > .profimage {
+        width: auto;
+        height: auto;
+        max-height: 200px;
+        max-width: 300px;
+    }
+
+}
+
+em,  h2{
+    font-size: 40px;
+    position: absolute;
+    top:20%;
+    padding-top: 2%;
+    font-family: fantasy;
+    color: blue;
+    text-decoration: underline;
+}
+.speciality {
+    font-size: 20px;
+    position: absolute;
+    top:35%;
+    padding-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profile {
+    width: auto;
+    height: auto;
+}
+.profile > .profimage {
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    max-width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    border-radius: 20%;
+    box-shadow: 0px 20px 18px blue;
+}
+.footer {
+    position: absolute;
+    top: 80%;
+}
+strong {
+    color: blue;
+}
+.intro { 
+    position:absolute;
+    top: 38%;
+    font-size: 20px;
+}
+ol{
+    font-weight: 700;
+    position: absolute;
+    top: 45%;
+
+}
+ol > li {
+    line-height: 30px;
+}
+.websites {
+    position: absolute;
+    top: 80%;
+    font-size: 20px;
+    margin-left:3%;
+}
+.intro > p{
+    margin-top: 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+h4 {
+    position: absolute;
+    top:53%;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.skills {
+    height: 500px;
+}
+.skills > h5 {
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 120px 0 10px 0px;
+}
+.skills > ul {
+    font-size: 18px;
+    padding: 0px 0px 10px 40px;
+
+}
+.about_me {
+    height: 20%;
+} 
+.olist >  ol  {
+    padding: 40px 0px 10px 50px;
+}
+.education  {
+    height: 450px;
+}
+.education > h4 {
+    padding: 40px 0px 10px 0px;
+
+}
+.education > ul {
+    position: absolute;
+    top: 60%;
+    padding-bottom: 40px;
+    padding: 40px 0px 10px 40px;
+}
+.bgcolor {
+    background: linear-gradient(100deg, white 50%, #F6B400 0%);
+}
