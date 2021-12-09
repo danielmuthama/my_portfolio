@@ -44,6 +44,24 @@ a:hover {
         max-height: 200px;
         max-width: 300px;
     }
+    .profile > .profimage2 {
+        width: auto;
+        height: auto;
+        max-height: 100px;
+        max-width: 200px;
+    }
+    .profile > .profimage3 {
+        width: auto;
+        height: auto;
+        max-height: 100px;
+        max-width: 200px;
+    }
+    .profile > .profimage4 {
+        width: auto;
+        height: auto;
+        max-height: 100px;
+        max-width: 200px;
+    }
 
 }
 
@@ -142,6 +160,7 @@ ol > li {
 .about_me{
     font-size: 20px;
     padding: 10px 0px 10px 0px;
+    height: 200px;
 }
 
 h4 {
@@ -156,7 +175,7 @@ h4 {
 .skills > h5 {
     font-size: 20px;
     text-decoration: underline;
-    padding: 120px 0 10px 0px;
+    padding: 60px 0 10px 0px;
 }
 .skills > ul {
     font-size: 18px;
@@ -171,8 +190,6 @@ h4 {
 .olist > p  {
     padding: 10px 0px 10px 0px;
     font-size: 20px;
-
-
 }
 .education  {
     height: 200px;
