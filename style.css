@@ -84,15 +84,9 @@ em,  h2{
 strong {
     color: blue;
 }
-.intro { 
-    position:absolute;
-    top: 38%;
-    font-size: 20px;
-}
+
 ol{
     font-weight: 700;
-    position: absolute;
-    top: 45%;
 
 }
 ol > li {
@@ -135,7 +129,7 @@ h4 {
     padding: 40px 0px 10px 50px;
 }
 .education  {
-    height: 450px;
+    height: 500px;
 }
 .education > h4 {
     padding: 40px 0px 10px 0px;
