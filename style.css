@@ -27,7 +27,7 @@ a:hover {
     border-color: chocolate;
 
 }
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 800px) {
     .name > p > em {
         font-size: 15px;
     }
