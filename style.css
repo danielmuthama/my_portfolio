@@ -88,8 +88,8 @@ em,  h2{
 .profile > .profimage {
     width: auto;
     height: auto;
-    max-height: 600px;
-    max-width: 650px;
+    max-height: 700px;
+    max-width: 750px;
     border-radius: 20%;
     box-shadow: 0px 20px 18px blue;
     margin: 0px 40px 0px 40px;
@@ -98,7 +98,7 @@ em,  h2{
     width: auto;
     height: auto;
     max-height: 500px;
-    max-width: 750px;
+    max-width: 650px;
     border-radius: 20%;
     box-shadow: 0px 10px 18px grey;
     margin-left: 30px;
@@ -138,6 +138,7 @@ em,  h2{
 .footer {
     height: 130px;
     margin-left: 60%;
+    margin-top: 40px;
 }
     
 strong {
@@ -160,7 +161,11 @@ ol > li {
 .about_me{
     font-size: 20px;
     padding: 10px 0px 10px 0px;
-    height: 200px;
+    height: 275px;
+}
+.about_me > p  {
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
 }
 
 h4 {
@@ -195,16 +200,14 @@ h4 {
     font-size: 20px;
 }
 .education  {
-    height: 300px;
+    height: 200px;
 }
 .education > h4 {
     padding: 20px 0px 10px 0px;
+    margin: 40px 0px 0px 0px;
 
 }
 .education > ul {
-    position: absolute;
-    top: 60%;
-    padding-bottom: 40px;
     padding: 40px 0px 10px 40px;
 }
 .bgcolor {
