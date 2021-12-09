@@ -27,7 +27,7 @@ a:hover {
     border-color: chocolate;
 
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .name > p > em {
         font-size: 15px;
     }
@@ -48,8 +48,6 @@ a:hover {
 
 em,  h2{
     font-size: 40px;
-    position: absolute;
-    top:20%;
     padding-top: 2%;
     font-family: fantasy;
     color: blue;
@@ -58,9 +56,11 @@ em,  h2{
 .speciality {
     font-size: 20px;
     position: absolute;
-    top:35%;
+    top:20%;
     padding-top: 5%;
+    padding-left: 13%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 .profile {
     width: auto;
@@ -69,31 +69,59 @@ em,  h2{
 .profile > .profimage {
     width: auto;
     height: auto;
-    max-height: 500px;
-    max-width: 600px;
-    position: absolute;
-    left: 50%;
-    top: 28%;
+    max-height: 600px;
+    max-width: 650px;
     border-radius: 20%;
     box-shadow: 0px 20px 18px blue;
+    margin-left: 50px;
 }
-.footer {
+.profile > .profimage2 {
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    max-width: 750px;
+    border-radius: 20%;
+    box-shadow: 0px 10px 18px grey;
+    margin-left: 40px;
     position: absolute;
-    top: 80%;
+    top: 28%;
+}
+.profile > .profimage3 {
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    max-width: 750px;
+    border-radius: 20%;
+    box-shadow: 0px 10px 18px grey;
+    margin-left: 120px;
+    position: absolute;
+    top: 28%;
+}
+.profile > .profimage4 {
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    max-width: 750px;
+    border-radius: 20%;
+    box-shadow: 0px 10px 18px grey;
+    margin-left: 200px;
+    position: absolute;
+    top: 28%;
+}
+
+.footer { 
+    height: 130px;
+    margin-left: 60%;
+    position: absolute;
+    top: 100%;
 }
 strong {
     color: blue;
 }
-.intro { 
-    position:absolute;
-    top: 38%;
-    font-size: 20px;
-}
+
 ol{
     font-weight: 700;
-    position: absolute;
-    top: 45%;
-
+    padding: 10px 0px 10px 80px;
 }
 ol > li {
     line-height: 30px;
@@ -104,8 +132,8 @@ ol > li {
     font-size: 20px;
     margin-left:3%;
 }
-.intro > p{
-    margin-top: 20px;
+.about_me{
+    font-size: 20px;
     padding: 10px 0px 10px 0px;
 }
 
@@ -126,19 +154,24 @@ h4 {
 .skills > ul {
     font-size: 18px;
     padding: 0px 0px 10px 40px;
+}
+.name {
+    height: 200px;
+}
+.name > .fullname {
+    text-align: center;
+}
+.olist > p  {
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+
 
 }
-.about_me {
-    height: 20%;
-} 
-.olist >  ol  {
-    padding: 40px 0px 10px 50px;
-}
 .education  {
-    height: 450px;
+    height: 200px;
 }
 .education > h4 {
-    padding: 40px 0px 10px 0px;
+    padding: 20px 0px 10px 0px;
 
 }
 .education > ul {
