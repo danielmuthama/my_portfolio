@@ -56,9 +56,11 @@ em,  h2{
 .speciality {
     font-size: 20px;
     position: absolute;
-    top:35%;
+    top:20%;
     padding-top: 5%;
+    padding-left: 13%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 .profile {
     width: auto;
@@ -67,17 +69,50 @@ em,  h2{
 .profile > .profimage {
     width: auto;
     height: auto;
-    max-height: 500px;
-    max-width: 600px;
-    position: absolute;
-    left: 50%;
-    top: 28%;
+    max-height: 600px;
+    max-width: 650px;
     border-radius: 20%;
     box-shadow: 0px 20px 18px blue;
+    margin-left: 50px;
 }
+.profile > .profimage2 {
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    max-width: 750px;
+    border-radius: 20%;
+    box-shadow: 0px 10px 18px grey;
+    margin-left: 40px;
+    position: absolute;
+    top: 28%;
+}
+.profile > .profimage3 {
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    max-width: 750px;
+    border-radius: 20%;
+    box-shadow: 0px 10px 18px grey;
+    margin-left: 120px;
+    position: absolute;
+    top: 28%;
+}
+.profile > .profimage4 {
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    max-width: 750px;
+    border-radius: 20%;
+    box-shadow: 0px 10px 18px grey;
+    margin-left: 200px;
+    position: absolute;
+    top: 28%;
+}
+
 .footer {
     position: absolute;
-    top: 80%;
+    top: 100%;
+    margin-left: 60%;
 }
 strong {
     color: blue;
@@ -97,7 +132,6 @@ ol > li {
     margin-left:3%;
 }
 .about_me{
-    margin-top: 40px;
     font-size: 20px;
     padding: 10px 0px 10px 0px;
 }
@@ -119,9 +153,13 @@ h4 {
 .skills > ul {
     font-size: 18px;
     padding: 0px 0px 10px 40px;
-
 }
-
+.name {
+    height: 200px;
+}
+.name > .fullname {
+    text-align: center;
+}
 .olist > p  {
     padding: 10px 0px 10px 0px;
     font-size: 20px;
