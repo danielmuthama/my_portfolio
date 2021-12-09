@@ -160,27 +160,29 @@ ol > li {
 }
 .about_me{
     font-size: 20px;
-    padding: 10px 0px 10px 0px;
-    height: 275px;
+    height: 200px;
+    margin: 40px 0px 40px 0px;
 }
 .about_me > p  {
     padding: 10px 0px 10px 0px;
     font-size: 20px;
 }
 
-h4 {
-    position: absolute;
-    top:53%;
+.education > h4 {
     font-size: 20px;
     text-decoration: underline;
 }
+.education > ul {
+    padding: 10px 0px 10px 0px;
+}
 .skills {
     height: 500px;
+    margin: 40px 0px 10px 0px;
 }
 .skills > h5 {
     font-size: 20px;
     text-decoration: underline;
-    padding: 50px 0 10px 0px;
+    padding: 80px 0 10px 0px;
 }
 .skills > ul {
     font-size: 18px;
@@ -201,14 +203,16 @@ h4 {
 }
 .education  {
     height: 200px;
+    margin: 30px 0px 0px 0px;
 }
 .education > h4 {
     padding: 20px 0px 10px 0px;
-    margin: 40px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 
 }
 .education > ul {
-    padding: 40px 0px 10px 40px;
+    font-size: 18px;
+    padding: 0px 0px 10px 40px;
 }
 .bgcolor {
     background: linear-gradient(100deg, white 50%, #F6B400 0%);
