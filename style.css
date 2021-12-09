@@ -112,6 +112,7 @@ em,  h2{
 .footer {
     height: 130px;
     margin-left: 60%;
+    margin-top: 30px;
 }
 .footer > p {
     position: absolute;
