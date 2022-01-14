@@ -17,6 +17,21 @@ function feedBack(){
     }
 }
 
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
@@ -54,14 +69,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Software-Developer", "Network-Engineer", "UI|UX Designer", "Telecomm.-Engineer", "Freelancer"],
+        strings: ["Software-Developer", "Network-Eng.", "Designer", "Freelancer", "Telecommunication-Eng."],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Software-Developer", "Network-Engineer", "UI|UX Designer", "Telecomm.-Engineer", "Freelancer"],
+        strings: ["Software-Developer", "Network-Eng.", "Designer", "Freelancer", "Telecommunication-Eng."],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

@@ -391,9 +391,6 @@ section .title::after{
 .teams .title::after{
     content: "who with me";
 }
-#project .title::after{
-    content: "what i've done";
-}
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
@@ -689,4 +686,5 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+    #more {display: none;}
 }
