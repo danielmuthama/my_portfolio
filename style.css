@@ -197,6 +197,9 @@ section .title::after{
     color: crimson;
     font-weight: 500;
 }
+#hire {
+    margin: 15% 0% 0% 15%;
+}
 .home .home-content a{
     display: inline-block;
     background: crimson;
@@ -321,14 +324,15 @@ section .title::after{
     width: calc(50% - 30px);
 }
 .skills .skills-content .left .text{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: crimson;
 }
 .skills .skills-content .left p{
     text-align: justify;
 }
-.skills .skills-content .left a{
+.skills .skills-content .left button{
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -336,6 +340,7 @@ section .title::after{
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
+    margin-left: 30%;
     border-radius: 6px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
@@ -386,7 +391,43 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
-
+.skills-content .right .css::before{
+    width: 60%;
+}
+.skills-content .right .angular::before{
+    width: 50%;
+}
+.skills-content .right .react::before{
+    width: 55%;
+}
+.skills-content .right .css::before{
+    width: 60%;
+}
+.skills-content .right .js::before{
+    width: 80%;
+}
+.skills-content .right .matlab::before{
+    width: 75%;
+}
+.skills-content .right .r::before{
+    width: 60%;
+}
+.skills-content .right .c::before{
+    width: 60%;
+}
+.skills-content .right .p5::before{
+    width: 60%;
+}
+.skills-content .right .tensorflow::before{
+    width: 45%;
+}
+.skills-content .right .postgrelsql::before{
+    width: 35%;
+}
+.skills-content .right .mongodb::before{
+    width: 40%;
+}
+#more {display: none;}
 /* teams section styling */
 .teams .title::after{
     content: "who with me";
@@ -460,7 +501,7 @@ section .title::after{
 .contact .contact-content .text{
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .contact .contact-content .left p{
     text-align: justify;
@@ -482,6 +523,7 @@ section .title::after{
 }
 .contact .contact-content .info .head{
     font-weight: 500;
+    color: crimson;
 }
 .contact .contact-content .info .sub-title{
     color: #333;
@@ -521,7 +563,7 @@ section .title::after{
 .contact .right form .textarea textarea{
   padding-top: 10px;
   resize: none;
-}
+ }
 .contact .right form .button-area{
   display: flex;
   align-items: center;

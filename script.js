@@ -24,11 +24,11 @@ function myFunction() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
+    btnText.innerHTML = "Read More"; 
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
+    btnText.innerHTML = "Read Less"; 
     moreText.style.display = "inline";
   }
 }
@@ -69,14 +69,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Software-Developer", "Network-Eng.", "Designer", "Freelancer", "Telecommunication-Eng."],
+        strings: ["Freelancer", "Software-Developer", "Network-Engineer.", "UI|UX Designer", "Telecom. Engineer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Software-Developer", "Network-Eng.", "Designer", "Freelancer", "Telecommunication-Eng."],
+        strings: ["Freelancer", "Software-Developer", "Network-Engineer.", "UI|UX Designer", "Telecom. Engineer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
