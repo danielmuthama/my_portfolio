@@ -692,21 +692,20 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-.social {
-    display: flex;
-    flex-direction: row;
-}
 .social ul {
     background-color: white;
     padding: .5%;
     box-shadow: 0px 6px 7px crimson;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .social ul li {
-    margin: 5%;
+    margin: 1%;
 }
 .copyright {
     background-color: #111;
-    padding: 10px;
+    padding: 2%;
 }
 .fa {
     padding: 10px;
@@ -755,10 +754,14 @@ ul {
     }
 }
 
+
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
     }
+}
+.copyright {
+    display: none;
 }
 @media (max-width: 947px){
     .menu-btn{
@@ -823,6 +826,9 @@ ul {
         width: 100%;
         margin-bottom: 35px;
     }
+    .copyright {
+        display: none;
+    }
 }
 
 @media (max-width: 690px) {
@@ -840,6 +846,9 @@ ul {
     }
     .services .serv-content .card{
         width: 100%;
+    }
+    .copyright {
+        display: none;
     }
 }
 
@@ -873,4 +882,7 @@ ul {
         line-height: 38px;
     }
     #more {display: none;}
+    .copyright {
+        display: none;
+    }
 }
