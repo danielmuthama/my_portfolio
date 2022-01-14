@@ -409,6 +409,9 @@ section .title::after{
 .skills-content .right .matlab::before{
     width: 75%;
 }
+.skills-content .right .python::before{
+    width: 55%;
+}
 .skills-content .right .r::before{
     width: 60%;
 }
