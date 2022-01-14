@@ -170,7 +170,6 @@ section .title::after{
     height: 100vh;
     color: #fff;
     min-height: 500px;
-    background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -580,6 +579,9 @@ section .title::after{
 }
 
 /* contact section styling */
+.contact {
+    height: 600px;
+}
 .contact .title::after{
     content: "get in touch";
 
@@ -678,7 +680,7 @@ section .title::after{
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background: white;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
@@ -690,7 +692,60 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-
+.social {
+    display: flex;
+    flex-direction: row;
+}
+.social ul {
+    background-color: white;
+    padding: .5%;
+    box-shadow: 0px 6px 7px crimson;
+}
+.social ul li {
+    margin: 5%;
+}
+.copyright {
+    background-color: #111;
+    padding: 10px;
+}
+.fa {
+    padding: 10px;
+    margin: 3%;
+    font-size: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+}
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* github */
+  .fa-github {
+    background: black;
+    border-color: white;
+    color: white;
+  }
+  
+  /* linkedin */
+  .fa-linkedin {
+    background: blue;
+    color: white;
+  }
+ul {
+    list-style-type: none;
+}
 
 /* responsive media query start */
 @media (max-width: 1104px) {
