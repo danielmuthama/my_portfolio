@@ -170,7 +170,6 @@ section .title::after{
     height: 100vh;
     color: #fff;
     min-height: 500px;
-    background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -264,17 +263,77 @@ section .title::after{
     background: none;
 }
 
+/* projects section styling */
+.projects .title {
+    color: white;
+}
+
+.projects .title::after{
+    content: "what i've done";
+    color:crimson;
+    background-color: #111;
+
+}
+
+.projects .title::before{
+    background-color:white;
+
+}
+.projects .carousel .card{
+    background: #222;
+    border-radius: 10px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.projects .carousel .card:hover{
+    background: crimson;
+}
+.projects .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.projects .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.projects .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    color: white;
+    font-family: sans-serif;
+}
+.projects .carousel .card p{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.projects .carousel .card img{
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.projects .carousel .card:hover img{
+    border-color: #fff;
+}
 /* services section styling */
-.services, .teams{
+.services, .projects, .teams{
     color:#fff;
     background: #111;
 }
-.services .title::before,
-.teams .title::before{
+.services .title::before{
     background: #fff;
 }
-.services .title::after,
-.teams .title::after{
+.services .title::after{
     background: #111;
     content: "what i provide";
 }
@@ -300,14 +359,25 @@ section .title::after{
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
+    padding-bottom: 10px;
+
 }
 .services .serv-content .card:hover i{
     color: #fff;
 }
-.services .serv-content .card .text{
+.services .carousel .card .text{
     font-size: 25px;
+    font-weight: 700;
+    margin: 10px 0 7px 0;
+    color: white;
+    font-family: sans-serif;
+}
+.services .carousel .card p{
+    font-size: 18px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .ref{
     padding: 1.3%;
@@ -409,6 +479,9 @@ section .title::after{
 .skills-content .right .matlab::before{
     width: 75%;
 }
+.skills-content .right .python::before{
+    width: 55%;
+}
 .skills-content .right .r::before{
     width: 60%;
 }
@@ -428,9 +501,14 @@ section .title::after{
     width: 40%;
 }
 #more {display: none;}
+
 /* teams section styling */
 .teams .title::after{
     content: "who with me";
+    background-color: #111;
+}
+.teams .title::before{
+    background-color: white;
 }
 .teams .carousel .card{
     background: #222;
@@ -457,6 +535,15 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color: white;
+    font-family: sans-serif;
+}
+.teams .carousel .card p{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .teams .carousel .card img{
     height: 150px;
@@ -492,8 +579,12 @@ section .title::after{
 }
 
 /* contact section styling */
+.contact {
+    height: 600px;
+}
 .contact .title::after{
     content: "get in touch";
+
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -563,6 +654,7 @@ section .title::after{
 .contact .right form .textarea textarea{
   padding-top: 10px;
   resize: none;
+  
  }
 .contact .right form .button-area{
   display: flex;
@@ -589,7 +681,7 @@ section .title::after{
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background: white;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
@@ -601,7 +693,59 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-
+.social ul {
+    background-color: white;
+    padding: .5%;
+    box-shadow: 0px 6px 7px crimson;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social ul li {
+    margin: 1%;
+}
+.copyright {
+    background-color: #111;
+    padding: 2%;
+}
+.fa {
+    padding: 10px;
+    margin: 3%;
+    font-size: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+}
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* github */
+  .fa-github {
+    background: black;
+    border-color: white;
+    color: white;
+  }
+  
+  /* linkedin */
+  .fa-linkedin {
+    background: blue;
+    color: white;
+  }
+ul {
+    list-style-type: none;
+}
 
 /* responsive media query start */
 @media (max-width: 1104px) {
@@ -611,10 +755,14 @@ footer span a:hover{
     }
 }
 
+
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
     }
+}
+.copyright {
+    display: none;
 }
 @media (max-width: 947px){
     .menu-btn{
@@ -679,6 +827,9 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
+    .copyright {
+        display: none;
+    }
 }
 
 @media (max-width: 690px) {
@@ -696,6 +847,9 @@ footer span a:hover{
     }
     .services .serv-content .card{
         width: 100%;
+    }
+    .copyright {
+        display: none;
     }
 }
 
@@ -729,4 +883,7 @@ footer span a:hover{
         line-height: 38px;
     }
     #more {display: none;}
+    .copyright {
+        display: none;
+    }
 }
