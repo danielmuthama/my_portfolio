@@ -927,12 +927,6 @@ ul {
     .max-width {
         padding: 0 50px;
     }
-    body {
-        background-image: url(images/dan.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-    }
 }
 
 .copyright {
