@@ -1000,7 +1000,17 @@ ul {
         display: none;
     }
 }
-
+@media (max-width: 900px) {
+ .home{
+    background: url("images/mb.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+}
 @media (max-width: 690px) {
     .max-width {
         padding: 0 23px;
