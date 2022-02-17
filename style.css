@@ -752,6 +752,16 @@ ul {
         height: 350px;
         width: 350px;
     }
+    .home{
+    display: flex;
+    background: url("images/mb.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
 }
 
 
