@@ -851,8 +851,10 @@ ul {
     .copyright {
         display: none;
     }
-     .home{
-    display: flex;
+
+}
+@media (max-width: 720px) {
+ .home{
     background: url("images/mb.jpg") no-repeat center;
     background-size: cover;
     height: 100vh;
@@ -862,7 +864,6 @@ ul {
     font-family: 'Ubuntu', sans-serif;
 }
 }
-
 @media (max-width: 500px) {
     .home .home-content .text-2{
         font-size: 50px;
