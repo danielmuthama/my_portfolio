@@ -877,6 +877,21 @@ footer span a:hover {
     background-color: white;
 }
 
+li>img {
+    margin: 3%;
+    font-size: 30px;
+    height: auto;
+    width: auto;
+    max-width: 60px;
+    max-height: 70px;
+    border-radius: 4%;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(207, 202, 202);
+    border-radius: 20%;
+}
+
 
 /* Add a hover effect if you want */
 
@@ -998,6 +1013,18 @@ ul {
     }
     .copyright {
         display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .home {
+        background: url("images/mb.jpg") no-repeat center;
+        background-size: cover;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
     }
 }
 
