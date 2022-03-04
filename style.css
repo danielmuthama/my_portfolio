@@ -629,7 +629,7 @@
     }
     
     .teams .title::before {
-        background-color: white;
+        background-color: rgb(228, 224, 224);
     }
     
     .teams .carousel .card {
