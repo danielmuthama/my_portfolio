@@ -209,8 +209,9 @@
     }
     
     .home .home-content .text-1 {
-        font-size: 27px;
+        font-size: 30px;
         padding: 5%;
+        font-weight: 700px;
     }
     
     .home .home-content .text-2 {
@@ -218,6 +219,8 @@
         font-weight: 600;
         margin-left: -3px;
         box-shadow: 2px 3px 3px crimson;
+        border-top: 3px solid crimson;
+        text-shadow: 0px 3px 20px crimson;
     }
     
     .home .home-content .text-3 {
