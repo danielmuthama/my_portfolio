@@ -991,6 +991,9 @@
             margin: 20px 0;
             font-size: 25px;
         }
+        .home .home-content {
+            text-align: center;
+        }
         .home .home-content .text-2 {
             font-size: 70px;
         }
