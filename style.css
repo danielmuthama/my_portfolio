@@ -254,6 +254,11 @@
     }
     /* about section styling */
     
+    .about {
+        background-color: rgb(228, 224, 224);
+        opacity: 1;
+    }
+    
     .about .title::after {
         content: "who i am";
     }
@@ -456,7 +461,8 @@
     /* skills section styling */
     
     .skills {
-        background-color: rgb(241, 236, 236);
+        background-color: rgb(228, 224, 224);
+        opacity: 1;
     }
     
     .skills .title::after {
@@ -704,7 +710,8 @@
     
     .contact {
         height: 600px;
-        background-color: rgb(241, 236, 236);
+        background-color: rgb(228, 224, 224);
+        opacity: 1;
     }
     
     .contact .title::after {
@@ -767,6 +774,7 @@
     .contact .right form .textarea {
         height: 80px;
         width: 100%;
+        background-color: white;
     }
     
     .contact .right form .name {
@@ -777,7 +785,7 @@
     .contact .right form .textarea textarea {
         height: 100%;
         width: 100%;
-        border: 1px solid lightgrey;
+        border: 2px solid rgb(230, 102, 102);
         border-radius: 6px;
         outline: none;
         padding: 0 15px;
