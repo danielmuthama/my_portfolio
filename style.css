@@ -220,17 +220,20 @@ section .title::after {
 
 .home .home-content .text-1 {
     font-size: 27px;
+    padding: 5%;
 }
 
 .home .home-content .text-2 {
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
+    box-shadow: 2px 3px 3px crimson;
 }
 
 .home .home-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
+    padding: 5%;
 }
 
 .home .home-content .text-3 span {
@@ -487,6 +490,13 @@ section .title::after {
 
 .skills .skills-content .left p {
     text-align: justify;
+}
+
+br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 24%;
 }
 
 .skills .skills-content .left button {
@@ -1075,10 +1085,10 @@ ul {
 
 @media (max-width: 500px) {
     .home .home-content .text-2 {
-        font-size: 50px;
+        font-size: 45px;
     }
     .home .home-content .text-3 {
-        font-size: 27px;
+        font-size: 24px;
     }
     .about .about-content .right .text,
     .skills .skills-content .left .text {
