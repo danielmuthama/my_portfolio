@@ -993,6 +993,7 @@
         }
         .home .home-content {
             text-align: center;
+            padding-top: 18px;
         }
         .home .home-content .text-2 {
             font-size: 70px;
@@ -1002,7 +1003,7 @@
         }
         .home .home-content a {
             font-size: 23px;
-            padding: 10px 30px;
+            padding: 0px 30px;
         }
         .max-width {
             max-width: 930px;
