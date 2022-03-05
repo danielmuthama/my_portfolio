@@ -618,6 +618,10 @@
         width: 40%;
     }
     
+    .skills-content .right .ruby::before {
+        width: 35%;
+    }
+    
     #more {
         display: none;
     }
