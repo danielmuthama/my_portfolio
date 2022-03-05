@@ -1011,7 +1011,7 @@
                 text-align: center;
                 padding-top: 23px;
                 position: absolute;
-                top: 60%;
+                top: 50%;
             }
             .home .home-content .text-2 {
                 font-size: 70px;
@@ -1060,6 +1060,10 @@
                 background-attachment: fixed;
                 font-family: 'Ubuntu', sans-serif;
             }
+            .home .home-content {
+                position: absolute;
+                top: 50%;
+            }
         }
         
         @media (max-width: 690px) {
@@ -1068,7 +1072,7 @@
             }
             .home .home-content {
                 position: absolute;
-                top: 60%;
+                top: 50%;
             }
             .home .home-content .text-2 {
                 font-size: 60px;
