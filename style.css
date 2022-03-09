@@ -1015,7 +1015,7 @@
                 text-align: center;
                 padding-top: 23px;
                 position: absolute;
-                top: 55%;
+                top: 48%;
             }
             .home .home-content .text-2 {
                 font-size: 70px;
@@ -1066,7 +1066,7 @@
             }
             .home .home-content {
                 position: absolute;
-                top: 55%;
+                top: 48%;
             }
         }
         
@@ -1117,7 +1117,7 @@
             }
             .home .home-content {
                 position: absolute;
-                top: 55%;
+                top: 48%;
             }
             .right form .error-box {
                 width: 150px;
