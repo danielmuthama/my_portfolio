@@ -69,14 +69,14 @@ $(document).ready(function() {
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Freelancer", "Software Developer", "Data Analyst", "Network Engineer", "UI|UX Designer", "Telecom. Engineer"],
+        strings: ["Freelancer", "Software Developer", "Cloud Developer", "Data Analyst", "Network Engineer", "UI|UX Designer", "Telecom. Engineer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Freelancer", "Software Developer", "Data Analyst", "Network Engineer", "UI|UX Designer", "Telecom. Engineer"],
+        strings: ["Freelancer", "Software Developer", "Cloud Developer", "Data Analyst", "Network Engineer", "UI|UX Designer", "Telecom. Engineer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
